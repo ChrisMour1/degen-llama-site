@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Degen Llama</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #fdf0d1;
+      color: #2e1d12;
+    }
+
+    header {
+      background-color: #d1322c;
+      color: #fff;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+
+    .llama-img {
+      max-width: 180px;
+      border-radius: 20px;
+    }
+
+    .content {
+      padding: 2rem 1rem;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    h1 {
+      color: #d1322c;
+      font-size: 2.5rem;
+    }
+
+    h2 {
+      color: #fca311;
+    }
+
+    .section {
+      margin-bottom: 2rem;
+    }
+
+    .disclaimer {
+      font-size: 0.9rem;
+      color: #555;
+      border-top: 1px solid #ccc;
+      margin-top: 3rem;
+      padding-top: 1rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #222;
+      color: #eee;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="Dllama.png" alt="Degen Llama" class="llama-img" />
+    <h1>Degen Llama</h1>
+    <p>The meme token for true casino degenerates 🦙🎰</p>
+  </header>
+
+  <main class="content">
+    <section class="section">
+      <h2>🎲 What is Degen Llama?</h2>
+      <p>
+        Degen Llama is not just another meme coin — it's the spirit animal of every casino degen who just hit the bonus round and believes in miracles. Inspired by the colorful chaos of meme culture and the high-stakes thrill of slots, $DELLA (Degen Llama) is here to bring laughter, hype, and maybe a bit of luck to the blockchain.
+      </p>
+    </section>
+
+    <section class="section">
+      <h2>💥 Bonus Mode Activated</h2>
+      <p>
+        Our hero, the Degen Llama, lives for that adrenaline rush. With tattoos that read "$$$ BONUS $$$" and eyes on the next big win, he’s entered full bonus mode — and he's not leaving anytime soon. This token is a tribute to that exact moment: all-in, spinning, and vibing.
+      </p>
+    </section>
+
+    <section class="section">
+      <h2>📢 WAGMI</h2>
+      <p>
+        Whether you're a seasoned gambler or a meme enthusiast, Degen Llama reminds us: <strong>We're All Gonna Make It</strong>. Join the herd and ride the wave.
+      </p>
+    </section>
+
+    <div class="disclaimer">
+      <strong>Disclaimer:</strong> $DELLA (Degen Llama) is a meme-based token created purely for entertainment purposes. It has no intrinsic value and is <strong>not</strong> an investment. Gamble responsibly — in real life and on the blockchain.
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2025 Degen Llama. Stay degenerate. 🦙
+  </footer>
+</body>
+</html>
