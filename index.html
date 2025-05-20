@@ -2,60 +2,108 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Degen Llama</title>
   <style>
+    @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+    /* Background with image and overlay */
     body {
       margin: 0;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #fdf0d1;
-      color: #2e1d12;
+      font-family: 'Russo One', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #fff;
+      background: 
+        linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+        url('DegLlama.png') no-repeat center center fixed;
+      background-size: cover;
+      min-height: 100vh;
+      overflow-x: hidden;
     }
 
     header {
-      background-color: #d1322c;
-      color: #fff;
-      padding: 2rem 1rem;
       text-align: center;
+      padding: 3rem 1rem 2rem;
+      text-shadow: 0 0 10px #fca311, 0 0 20px #fca311;
     }
 
+    /* Smaller llama with glow */
     .llama-img {
-      max-width: 180px;
-      border-radius: 20px;
+      max-width: 150px;
+      border-radius: 25px;
+      box-shadow: 0 0 20px #fca311;
+      margin-bottom: 1rem;
+      transition: transform 0.3s ease;
     }
-
-    .content {
-      padding: 2rem 1rem;
-      max-width: 800px;
-      margin: 0 auto;
+    .llama-img:hover {
+      transform: scale(1.1) rotate(5deg);
+      box-shadow: 0 0 30px #fca311, 0 0 40px #ff6700;
+      cursor: pointer;
     }
 
     h1 {
-      color: #d1322c;
-      font-size: 2.5rem;
+      font-size: 3rem;
+      margin: 0 0 0.2rem;
+      color: #ff6700;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+    }
+
+    header p {
+      font-size: 1.3rem;
+      color: #ffd95b;
+      text-shadow: 0 0 6px #d1322c;
+      margin-top: 0;
+    }
+
+    main.content {
+      max-width: 700px;
+      margin: 0 auto 3rem;
+      padding: 1rem 1.5rem;
+      background: rgba(30, 0, 50, 0.7);
+      border-radius: 15px;
+      box-shadow: 0 0 20px #ff6700aa;
     }
 
     h2 {
-      color: #fca311;
+      color: #ff9f1c;
+      margin-top: 0;
+      text-shadow: 0 0 8px #ff9f1c;
     }
 
-    .section {
-      margin-bottom: 2rem;
+    .section p {
+      font-size: 1.1rem;
+      line-height: 1.5;
+      color: #fff8e1;
     }
 
     .disclaimer {
       font-size: 0.9rem;
-      color: #555;
-      border-top: 1px solid #ccc;
-      margin-top: 3rem;
+      color: #f0c674;
+      border-top: 1px solid #ff6700;
+      margin-top: 2.5rem;
       padding-top: 1rem;
+      font-style: italic;
+      text-shadow: 0 0 3px #ff6700;
     }
 
     footer {
       text-align: center;
       padding: 1rem;
-      background-color: #222;
-      color: #eee;
+      background: linear-gradient(90deg, #222 0%, #441100 100%);
+      color: #ffbd59;
+      font-weight: bold;
+      text-shadow: 0 0 5px #ff6700;
+    }
+
+    /* Responsive tweaks */
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2.2rem;
+      }
+      main.content {
+        margin: 1rem;
+        padding: 1rem;
+      }
     }
   </style>
 </head>
